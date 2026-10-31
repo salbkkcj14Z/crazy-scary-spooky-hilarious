@@ -26,4 +26,17 @@ Traditional software engineering relies on deterministic procedural control loop
 
 ### 2. Run the Telemetry Engine
 ```bash
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8000## Citation
+
+If you use LMRG-1 in your research or architecture, please cite it using the metadata below:
+
+```bibtex
+@software{Timpko_LMRG_2026,
+  author = {Timpko, Chuck},
+  title = {{LMRG-1: Intent-as-Code Telemetry Framework for Zero-Latency Cognitive Agent Execution}},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.23839308},
+  url = {[https://doi.org/10.5281/zenodo.23839308](https://doi.org/10.5281/zenodo.23839308)}
+}
+
